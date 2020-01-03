@@ -1,0 +1,416 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Đặc sản 3 Miền | Trang chủ</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" href="fonts/flaticon.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- Animattion Css -->
+    <link rel="stylesheet" href="css/animate.min.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: #0B0B0D;
+        }
+
+        .loading {
+            background-color: #c0c0c0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .loading::before {
+            content: "";
+            position: absolute;
+            top: -25%;
+            left: 50%;
+            width: 10%;
+            height: 150%;
+            background-color: #e6e4e4;
+            box-shadow: 0 0 50px #ececec;
+            opacity: 0.7;
+            filter: blur(15px);
+            animation: loading 3s ease-in-out infinite;
+        }
+
+        @keyframes loading {
+            0% {
+                left: -70px;
+            }
+
+            100% {
+                left: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper parallaxie repeat-y bg-size-auto" style="background-image: url(img/page-bg.jpg)">
+        <!-- Header Area Start -->
+        <header class="header ">
+            <div id="header-main-menu" class="header-main-menu header-sticky">
+                <div class="container d-flex justify-content-between">
+                    <div class="left">
+                        <nav class="site-nav">
+                            <ul id="site-menu" class="site-menu">
+                                <li>
+                                    <a href="/" i18n-key="home"></a>
+                                </li>
+                                <li class="active">
+                                    <a href="/danh-muc.html" i18n-key="category"></a>
+                                    <ul class="dropdown-menu-col-1 dropdown-custom">
+                                        <li>
+                                            <a href="/cac-mon-an.html?id=mien-bac" i18n-key="northernSpecialties"></a>
+                                        </li>
+                                        <li>
+                                            <a href="/cac-mon-an.html?id=mien-trung" i18n-key="centralSpecialties"></a>
+                                        </li>
+                                        <li>
+                                            <a href="/cac-mon-an.html?id=mien-nam" i18n-key="southernSpecialties"></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="right d-flex align-items-center">
+                        <div class="text-white mr-4 switch-lang"><a langCode="vi-VN" title="Vietnamese">VI</a> | <a
+                                langCode="en-US" title="English">EN</a></div>
+                        <div class="account-area"></div>
+                        <div class="mob-menu-open toggle-menu ml-5">
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 d-none d-lg-block">
+                            <div class="nav-action">
+                                <ul class="nav-social">
+                                    <li><a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#" title="twitter"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#" title="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#" title="pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#" title="skype"><i class="fab fa-skype"></i></a></li>
+                                    <li><a href="#" title="rss"><i class="fas fa-rss"></i></a></li>
+                                    <li><a href="#" title="google-plus"><i class="fab fa-google-plus-g"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col -8 col-lg-4">
+                            <div class="site-logo text-left text-lg-center">
+                                <a href="index.html" class="main-logo"><img src="img/logo-light.png"
+                                        alt="Site Logo"></a>
+                            </div>
+                        </div>
+                        <div class="col-4 col-lg-4">
+                            <div class="nav-action-elements-layout3">
+                                <ul>
+                                    <li class="fav">
+                                        <div class="fav-wrap">
+                                            <div class="fav-info">
+                                                <i class="fas fa-heart"></i>
+                                                <div class="fav-amount"><sup class="count-fav"></sup></div>
+                                            </div>
+                                            <div class="fav-items">
+                                                <div class="wrapper"></div>
+                                                <hr>
+                                                <div class="fav-item pb-4">
+                                                    <div class="fav-btn">
+                                                        <a class="item-btn" i18n-key="deleteAll">Xóa tất cả</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="header-search-box">
+                                            <a href="#search" title="Search" class="search-button">
+                                                <i class="fas fa-search"></i>
+                                            </a>
+                                        </div>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header Area End -->
+
+        <!-- Inne Page Banner Area Start Here -->
+        <section class="inner-page-banner bg-common select-disable">
+            <h1 class="text-center text-white" i18n-key="category"></h1>
+        </section>
+        <!-- Inne Page Banner Area End Here -->
+
+        <!-- Category Area Start Here -->
+        <section class="category-page-wrap padding-bottom-50 select-disable">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1 bac">
+                            <figure class="item-figure">
+                                <a href="/cac-mon-an.html?id=mien-bac">
+                                    <div
+                                        style="background-image: url(img/food/pho.jpg); height: 255px; background-position: center; background-size: cover;">
+                                    </div>
+                                </a>
+                            </figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="/cac-mon-an.html?id=mien-bac"
+                                        i18n-key="northernSpecialties"></a></h3>
+                                <span class="sub-title"><span class="num mr-2"></span><span
+                                        i18n-key="food"></span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1 trung">
+                            <figure class="item-figure">
+                                <a href="/cac-mon-an.html?id=mien-trung">
+                                    <div
+                                        style="background-image: url(img/food/bun-bo-2.jpg); height: 255px; background-position: center; background-size: cover;">
+                                    </div>
+                                </a>
+                            </figure>
+                            <div class="item-content">
+                                <h3 class="item-title">
+                                    <a href="/cac-mon-an.html?id=mien-trung" i18n-key="centralSpecialties"></a>
+                                </h3>
+                                <span class="sub-title"><span class="num mr-2"></span><span
+                                        i18n-key="food"></span></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <div class="category-box-layout1 nam">
+                            <figure class="item-figure">
+                                <a href="/cac-mon-an.html?id=mien-nam">
+                                    <div
+                                        style="background-image: url(img/food/banh-xeo.jpg); height: 255px; background-position: center; background-size: cover;">
+                                    </div>
+                                </a>
+                            </figure>
+                            <div class="item-content">
+                                <h3 class="item-title"><a href="/cac-mon-an.html?id=mien-nam"
+                                        i18n-key="southernSpecialties"></a></h3>
+                                <span class="sub-title"><span class="num mr-2"></span><span
+                                        i18n-key="food"></span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Category Area End Here -->
+
+        <!-- Instagram Start -->
+        <section class="instagram-feed-wrap">
+            <div class="instagram-feed-title"><a href="#"><i class="fab fa-instagram"></i>Follow On Instagram</a></div>
+            <ul class="instagram-feed-figure">
+                <li>
+                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure1.jpg" alt="Social"></a>
+                </li>
+                <li>
+                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure2.jpg" alt="Social"></a>
+                </li>
+                <li>
+                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure3.jpg" alt="Social"></a>
+                </li>
+                <li>
+                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure4.jpg" alt="Social"></a>
+                </li>
+                <li>
+                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure5.jpg" alt="Social"></a>
+                </li>
+                <li>
+                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure6.jpg" alt="Social"></a>
+                </li>
+                <li>
+                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure7.jpg" alt="Social"></a>
+                </li>
+                <li>
+                    <a href="single-recipe1.html"><img src="img/social-figure/social-figure8.jpg" alt="Social"></a>
+                </li>
+            </ul>
+        </section>
+        <!-- Instagram End -->
+        <!-- Footer Area Start -->
+        <footer class="ranna-bg-light">
+            <div class="container">
+                <a href="index.html"><img src="img/logo-dark.png" class="img-fluid" alt="footer-logo"></a>
+            </div>
+            <hr class="dropdown-divider">
+            <div class="copyright">
+                Copyright <sup>©</sup> Async Team
+                <label class="d-block font-weight-bold">DEV20</label>
+            </div>
+        </footer>
+    </div>
+    <!-- Footer Area End -->
+
+    <!-- Search Box Start -->
+    <div id="search" class="search-wrap">
+        <button type="button" class="close">×</button>
+        <form class="search-form" method="GET" action="/tim-kiem.html">
+            <input type="search" name="q" placeholder="Tìm kiếm tên món ăn, địa phương, vùng miền..." />
+            <button type="submit" class="search-btn"><i class="flaticon-search"></i></button>
+        </form>
+    </div>
+    <!-- Search Box End -->
+
+    <!-- ScrollUp Start -->
+    <a href="#" data-type="scroll-top" class="scrollup">
+        <i class="fas fa-angle-double-up"></i>
+    </a>
+    <!-- ScrollUp End -->
+
+    <!-- Modal Login Start-->
+    <div class="modal modal-custom fade" id="modal-login" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="title-default-bold mb-none" i18n-key="login"></div>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <form class="login-form" onsubmit="login(event)">
+                        <p id="validation" class="text-danger"></p>
+                        <input id="uid" class="main-input-box" type="text" i18n-key-placeholder="uid" />
+                        <input id="pwd" class="main-input-box" type="password" i18n-key-placeholder="pwd" />
+                        <div class="inline-box mb-5 mt-4">
+                            <div class="checkbox checkbox-primary">
+                                <input id="remember" type="checkbox">
+                                <label for="remember" i18n-key="remember"></label>
+                            </div>
+                            <label class="lost-password"><a href="#" i18n-key="forgotPass"></a></label>
+                        </div>
+                        <div class="inline-box mb-5 mt-4">
+                            <button class="btn-fill" type="submit" i18n-key="login"></button>
+                            <a href="#" class="btn-register"><i class="fas fa-user"></i><span
+                                    i18n-key="register"></span></a>
+                        </div>
+                    </form>
+                    <label i18n-key="loginSocial"></label>
+                    <div class="login-box-social">
+                        <ul>
+                            <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" class="google"><i class="fab fa-google-plus-g"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal End-->
+
+    <!-- Modal Locations Start-->
+    <div class="modal modal-custom face" id="modal-locations" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="title-default-bold mb-none" i18n-key="near"></div>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Location End-->
+
+    <!-- Modal Map Start-->
+    <div class="modal modal-custom face" id="modal-map" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="title mb-none"></div>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="map"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Modal Map End-->
+
+    <!-- Jquery Js -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/i18n.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Owl Carousel Js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- Smoothscroll Js -->
+    <script src="js/smoothscroll.min.js"></script>
+    <!-- Jebra Tooltips Js -->
+    <script src="js/zebra_tooltips.min.js"></script>
+    <!-- Load React. -->
+    <script src="js/react.min.js"></script>
+    <script src="js/react-dom.min.js"></script>
+    <script src="js/babel.min.js"></script>
+    <!-- Custom Js -->
+    <script src="js/main.js" type="text/babel"></script>
+
+    <script type="text/babel">
+        var counter = { "bac": 0, "trung": 0, "nam": 0 };
+
+        readTextFile("/data/monan.json", function (text) {
+            db.monan = JSON.parse(text);
+
+            db.monan.forEach(function (item, i) {
+                if (item.mien == "Bắc") {
+
+                    counter.bac++;
+
+                } else if (item.mien == "Trung") {
+
+                    counter.trung++;
+
+                } else {
+
+                    counter.nam++;
+
+                }
+            });
+
+            var keys = Object.keys(counter);
+
+            keys.forEach(function (item, i) {
+                $("." + item + " .item-content .sub-title .num").text(counter[item]);
+            });
+
+        });
+    </script>
+</body>

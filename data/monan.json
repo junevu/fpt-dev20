@@ -1,0 +1,971 @@
+[
+    {
+        "id": 1,
+        "ten": "Phở Hà Nội",
+        "hinhanh": "/img/food/pho.jpg",
+        "link": "/phohanoi.html",
+        "mien": "Bắc",
+        "diadanh": "Hà Nội",
+        "loai": "Món ăn",
+        "diem": 7,
+        "like": 100,
+        "mota": "Đây là đoạn giới thiệu về món ăn",
+        "diadiem": [
+            {
+                "ten": "Tên quán ăn/nhà hàng",
+                "diachi": "Địa chỉ của quán ăn/nhà hàng",
+                "diem": 5
+            },
+            {
+                "ten": "Tên quán ăn/nhà hàng",
+                "diachi": "Địa chỉ của quán ăn/nhà hàng",
+                "diem": 5
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "ten": "Thịt trâu gác bếp",
+        "hinhanh": "/img/food/thit-trau-gac-bep.jpg",
+        "link": "/thittraugacbep.html",
+        "mien": "Bắc",
+        "diadanh": "Yên Bái",
+        "loai": "Món ăn",
+        "diem": 8,
+        "like": 156,
+        "mota": "Đây là đoạn giới thiệu về món ăn",
+        "diadiem": [
+            {
+                "ten": "Tên quán ăn/nhà hàng",
+                "diachi": "Địa chỉ của quán ăn/nhà hàng",
+                "diem": 5
+            },
+            {
+                "ten": "Tên quán ăn/nhà hàng",
+                "diachi": "Địa chỉ của quán ăn/nhà hàng",
+                "diem": 5
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "ten": "Nem Bùi",
+        "hinhanh": "/img/food/nem-bui.jpg",
+        "link": "/thittraugacbep.html",
+        "mien": "Bắc",
+        "diadanh": "Bắc Ninh",
+        "loai": "Món ăn",
+        "diem": 8,
+        "like": 96,
+        "mota": "Đây là đoạn giới thiệu về món ăn",
+        "diadiem": [
+            {
+                "ten": "Tên quán ăn/nhà hàng",
+                "diachi": "Địa chỉ của quán ăn/nhà hàng",
+                "diem": 5
+            },
+            {
+                "ten": "Tên quán ăn/nhà hàng",
+                "diachi": "Địa chỉ của quán ăn/nhà hàng",
+                "diem": 5
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "ten": "Nem chua Thanh Hóa",
+        "hinhanh": "/img/food/nem-chua-thanh-hoa.jpg",
+        "mien": "Bắc",
+        "diadanh": "Thanh Hóa",
+        "loai": "Món ăn",
+        "diem": 8,
+        "like": 325,
+        "mota": "Đây là đoạn giới thiệu về món ăn",
+        "diadiem": [
+            {
+                "ten": "Tên quán ăn/nhà hàng",
+                "diachi": "Địa chỉ của quán ăn/nhà hàng",
+                "diem": 5
+            },
+            {
+                "ten": "Tên quán ăn/nhà hàng",
+                "diachi": "Địa chỉ của quán ăn/nhà hàng",
+                "diem": 5
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "ten": "Bánh bột lọc",
+        "hinhanh": "/img/food/banh-bot-loc.jpg",
+        "mien": "Bắc",
+        "diadanh": "Quảng Bình",
+        "loai": "Món ăn",
+        "diem": 9,
+        "like": 562,
+        "mota": "Đây là đoạn giới thiệu về món ăn",
+        "diadiem": [
+            {
+                "ten": "Tên quán ăn/nhà hàng",
+                "diachi": "Địa chỉ của quán ăn/nhà hàng",
+                "diem": 5
+            },
+            {
+                "ten": "Tên quán ăn/nhà hàng",
+                "diachi": "Địa chỉ của quán ăn/nhà hàng",
+                "diem": 5
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "ten": "Bún bò Huế",
+        "hinhanh": "/img/food/bun-bo.jpg",
+        "link": "/phohanoi.html",
+        "mien": "Trung",
+        "diadanh": "Huế",
+        "loai": "Món ăn",
+        "diem": 9,
+        "like": 100,
+        "mota": "Đây là mô tả",
+        "diadiem": [
+            {
+                "ten": "Tên quán ăn/nhà hàng",
+                "diachi": "Địa chỉ của quán ăn/nhà hàng",
+                "diem": 5
+            },
+            {
+                "ten": "Tên quán ăn/nhà hàng",
+                "diachi": "Địa chỉ của quán ăn/nhà hàng",
+                "diem": 7
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "ten": "Bánh khoái",
+        "hinhanh": "/img/food/banh-khoai.jpg",
+        "mien": "Trung",
+        "diadanh": "Quảng Bình",
+        "loai": "Món ăn",
+        "diem": 9,
+        "mota": "<p>Bánh khoái Huế là món bánh chiên đặc biệt chỉ có ở cố đô Huế. Món ăn này là một trong số những đặc sản du lịch Huế ngon có cách làm gần giống bánh xèo Nam Bộ. Bánh khoái có hình tròn theo dạng khuôn đổ, bánh được làm từ thành phần chính là bột gạo, có nhân ở trên, ăn cùng rau sống và nước chấm.</p><p>Bánh khoái ngon bởi cái độ giòn tan của vỏ bánh, vị đậm đà của tôm và của giá đỗ bên trong. Bánh được cuốn với rau củ để món ăn thêm hương vị và ăn kèm với nước chấm sền sệt, bùi bùi rất hấp dẫn. Du khách mới đến Huế lần đầu chỉ cần nghe qua món ăn này là đã háo hức muốn được thưởng thức.</p>",
+        "diadiem": [
+            {
+                "ten": "Quán bánh khoái Tứ Quý",
+                "diachi": "Số 17 đường Cô Tám, phường Hải Đình, Đồng Hới, Quảng Bình",
+                "diem": 9
+            },
+            {
+                "ten": "Quán Cô Năm",
+                "diachi": "Số 13 Trần Hưng Đạo, thành phố Đồng Hới",
+                "diem": 8
+            },
+            {
+                "ten": "Quán Ly Ly",
+                "diachi": "56 Trần Quốc Thảo",
+                "diem": 7
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "ten": "Bánh tráng Trảng Bàng",
+        "hinhanh": "/img/food/Banh-trang-trang-bang.jpg",
+        "link": "/phohanoi.html",
+        "mien": "Nam",
+        "diadanh": "Tây Ninh",
+        "loai": "Món ăn",
+        "diem": 9,
+        "like": 70,
+        "mota": "<p>Đây là món bánh tráng Trảng Bàng trứ danh vùng Tây Ninh sương gió. Bò tơ Củ Chi cùng rau quả tươi, cuộn chặt với bánh tráng Trảng Bàng, nhúng mắm nêm sệt sệt thơm nức được pha từ nước ép dứa tươi và gia vị nhà nghề, thì quả là tuyệt chiêu!</p>",
+        "diadiem": [
+            {
+                "ten": "Quán Bánh Canh Cô Ba ",
+                "diachi": "300 - 310 Quốc lộ 22, Thị trấn Trảng Bàng, Tây Ninh",
+                "diem": 5
+            },
+            {
+                "ten": "Quán Bánh Canh Út Huệ ",
+                "diachi": "88 Đường Nguyễn Văn Rốp, Thị Trấn Trảng Bàng, Tây Ninh",
+                "diem": 6
+            },
+            {
+                "ten": "Út Dung - Bánh Canh Trảng Bàng - Nguyễn Tri Phương",
+                "diachi": "441 Nguyễn Tri Phương, P. 8,  Quận 10, TP. HCM",
+                "diem": 8
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "ten": "Lẩu cá Kèo lá giang",
+        "hinhanh": "/img/food/lau-ca-keo.jpg",
+        "mien": "Nam",
+        "diadanh": "Các tỉnh miền Nam",
+        "loai": "Món ăn",
+        "diem": 10,
+        "mota": "<p>Món ăn đặc biệt phải kể đến đó là lẩu cá kèo lá giang. Mẹt lẩu gồm nhiều loại rau rừng và hoa lạ, được vận chuyển máy bay từ miền Nam xa xôi, cùng thịt cá kèo 100% tươi sống,.. Nồi lẩu thơm phức được đầu bếp  nấu trong nhiều giờ với công thức độc đáo, sôi sùng sục, ngon ngọt, hấp dẫn vô cùng.</p>",
+        "diadiem": [
+            {
+                "ten": "Lẩu Cá Kèo Bà Huyện",
+                "diachi": "87 Bà Huyện Thanh Quan, Phường 7, Hồ Chí Minh",
+                "diem": 8
+            },
+            {
+                "ten": "Quán Mưa Rừng - Lẩu Cá Kèo",
+                "diachi": "4 Sư Thiện Chiếu, Phường 7, Quận 3, Hồ Chí Minh",
+                "diem": 6
+            },
+            {
+                "ten": "Lẩu Cá Kèo Sóc Trăng 2",
+                "diachi": "2B Sư Thiện Chiếu, Phường 7, Quận 3, Hồ Chí Minh",
+                "diem": 7
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "ten": "Bánh xèo miền Nam",
+        "hinhanh": "/img/food/banh-xeo.jpg",
+        "mien": "Nam",
+        "diadanh": "Tây Nam Bộ",
+        "loai": "Món ăn",
+        "diem": 10,
+        "mota": "<p>Thứ bánh vừa ăn vặt vừa làm bữa chính cũng thỏa dạ dày. Vỏ ngoài vàng tươi bắt mắt, dai giòn tuyệt hảo bao bọc lớp nhân tôm thịt ú ụ khiến bao người say mê.</p>",
+        "diadiem": [
+            {
+                "ten": "Bánh xèo Dì Năm",
+                "diachi": "82CT Tam Đảo, Phường 15, Quận 10, Hồ Chí Minh",
+                "diem": 9
+            },
+            {
+                "ten": "Bánh Xèo Mười Xiềm - Nguyễn Chí Thanh",
+                "diachi": "13/3 Nguyễn Chí Thanh, P. Trà Nóc,  Quận Bình Thủy, Cần Thơ",
+                "diem": 8
+            },
+            {
+                "ten": "Bánh Xèo 46A Đinh Công Tráng",
+                "diachi": "46A Đinh Công Tráng, P. Tân Định,  Quận 1, TP. HCM",
+                "diem": 7.5
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "ten": "Cơm cháy kho quẹt",
+        "hinhanh": "/img/food/com-chay-kho-quet.jpg",
+        "mien": "Nam",
+        "diadanh": "Cần Thơ",
+        "loai": "Món ăn",
+        "diem": 8.5,
+        "mota": "<p> Kho quẹt chuẩn miền Tây sền sệt, đặc quánh, mang vị mặn mặn ngọt ngọt, pha chút cay cay nơi đầu lưỡi được chế biến từ nhiều thành phần như thịt heo, tôm nõn và các gia vị. Rất đơn giản nhưng hương vị cơm cháy kho quẹt lại khiến thực khách nhớ mãi thôi!</p>",
+        "diadiem": [
+            {
+                "ten": "Cơm Cháy Dì Ba",
+                "diachi": "43 Mạc Thiên Tích, Xuân Khánh, Ninh Kiều, Cần Thơ",
+                "diem": 8.5
+            },
+            {
+                "ten": "Cơm Cháy Kho Quẹt, Bò Nướng Ngói Pé Lùn",
+                "diachi": " Lô 74, Chợ Đêm Cần Thơ, Trần Phú, Cái Khế, Ninh Kiều, Cần Thơ",
+                "diem": 7
+            },
+            {
+                "ten": "Cơm Cháy Kho Quẹt - Tùng Thiện Vương",
+                "diachi": "567 Tùng Thiện Vương, P. 12,  Quận 8, TP. HCM",
+                "diem": 6.5
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "ten": "Đuông dừa",
+        "hinhanh": "/img/food/duong-dua.jpg",
+        "mien": "Nam",
+        "diadanh": "Bến Tre",
+        "loai": "Món ăn",
+        "diem": 8,
+        "mota": "<p>Có thể nói rằng đuông dừa là một món đặc sản miền Tây ngon ngất ngây khiến du khách nào cũng cảm thấy ghiền khi được thưởng thức.</p>",
+        "diadiem": [
+            {
+                "ten": "Đuông Dừa",
+                "diachi": "5 384/, 58 Lý Thái Tổ, Phường 10, Quận 3, Hồ Chí Minh 400000",
+                "diem": 8.5
+            },
+            {
+                "ten": "Đuông Dừa Sài Gòn",
+                "diachi": "ấp Đông Lân, xã Bà Điểm, huyện Hóc môn Thành phố Hồ Chí Minh 084",
+                "diem": 7
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "ten": "Bún cá",
+        "hinhanh": "/img/food/bun-ca.png",
+        "mien": "Nam",
+        "diadanh": "Tây Nam Bộ",
+        "loai": "Món ăn",
+        "diem": 7,
+        "mota": "<p>Điểm đặc biệt của món bún cá chính là nguyên liệu được sử dụng là những con cá lóc béo tròn sống trên các dòng sông, đồng ruộng nên hương vị vô cùng thơm ngon.</p>",
+        "diadiem": [
+            {
+                "ten": "Bún Cá Châu Đốc",
+                "diachi": "82 Nguyễn Văn Thoại, Châu Phú A, Châu Đốc, An Giang",
+                "diem": 9
+            },
+            {
+                "ten": "Bún Cá Bé Hai (Bún Cá Châu Đốc)",
+                "diachi": "đầu đường Chi Lăng, Châu Phú A, Châu Đốc, An Giang",
+                "diem": 8.5
+            },
+            {
+                "ten": "Bún cá lóc Châu Đốc",
+                "diachi": "124 Võ Thị Sáu, Phường 8, Quận 3, Hồ Chí Minh",
+                "diem": 8.5
+            },
+            {
+                "ten": "Bún cá lóc Phan Lê",
+                "diachi": "159 Cao Thắng, Tổ 16 Khu phố 2, Quận 10, Hồ Chí Minh",
+                "diem": 7
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "ten": "Cá lóc nướng trui",
+        "hinhanh": "/img/food/ca-loc-nuong-trui.png",
+        "mien": "Nam",
+        "diadanh": "Tây Nam Bộ",
+        "loai": "Món ăn",
+        "diem": 9,
+        "mota": "<p>Nhắc tới đặc sản miền Tây thì bạn sẽ không thể bỏ qua món cá lóc ở nơi đây. Lời khuyên chân thành là bạn hãy thưởng thức món cá lóc có kích cỡ khoảng 400 – 500g là đủ lớn và rất dễ nướng.</p>",
+        "diadiem": [
+            {
+                "ten": "Cá Lóc Nướng 467",
+                "diachi": "467/8 Lê Đại Hành, Phường 11, Quận 11, Hồ Chí Minh",
+                "diem": 8.5
+            },
+            {
+                "ten": "Cá Lóc Nướng Trui",
+                "diachi": "Hưng Lân, 23/9D Nguyễn Ảnh Thủ, Bà Điểm, Hóc Môn, Hồ Chí Minh",
+                "diem": 9
+            },
+            {
+                "ten": "Cá Lóc Nướng Cao Lãnh",
+                "diachi": "82 Phạm Hữu Lầu, Phường 4, TP. Cao Lãnh, Đồng Tháp",
+                "diem": 9
+            },
+            {
+                "ten": "Mẫn Cá Lóc Nướng",
+                "diachi": "Huỳnh Cương, An Cư, Ninh Kiều, Cần Thơ",
+                "diem": 9.5
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "ten": "Cơm tấm",
+        "hinhanh": "/img/food/com-tam.png",
+        "mien": "Nam",
+        "diadanh": "Tây Nam Bộ",
+        "loai": "Món ăn",
+        "diem": 8.5,
+        "mota": "<p>Tuy chỉ là một đĩa cơm tấm ở phần trên là sườn, chả cùng phá lấu kết hợp với đồ chua, mỡ hành đã tạo nên một món ăn ngon ngất ngây mà du khách nào cũng phải thích mê.</p>",
+        "diadiem": [
+            {
+                "ten": "Cơm tấm Ba Ghiền",
+                "diachi": "84 Đặng Văn Ngữ, Phường 10, Phú Nhuận, Hồ Chí Minh",
+                "diem": 9
+            },
+            {
+                "ten": "Quán Cơm Tấm Tú Mập",
+                "diachi": "812 Sư Vạn Hạnh, Phường 12, Quận 10, Hồ Chí Minh",
+                "diem": 8
+            },
+            {
+                "ten": "Cơm Tấm Cali",
+                "diachi": "82 Nguyễn Văn Trỗi, Phường 8, Phú Nhuận, Hồ Chí Minh",
+                "diem": 5.5
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "ten": "Cháo cua đồng",
+        "hinhanh": "/img/food/chao-cua-dong.png",
+        "mien": "Nam",
+        "diadanh": "Tây Nam Bộ",
+        "loai": "Món ăn",
+        "diem": 6,
+        "mota": "<p>Đây là một món ăn dễ thấy cũng như dễ kiếm ở vùng sông nước miền Tây. Món ăn này rất bổ và thanh mát, giúp hạ được lượng đường huyết trong cơ thể con người nên mùa hè thường được người dân ưa chuộng hơn.</p>",
+        "diadiem": [
+            {
+                "ten": "Cháo Cua Đồng",
+                "diachi": "Tp., Phường 6, Bến Tre",
+                "diem": 7
+            },
+            {
+                "ten": "Cháo Cua Đồng",
+                "diachi": " 83-81, ĐT870B, Trung An, Thành phố Mỹ Tho, Tiền Giang",
+                "diem": 9
+            },
+            {
+                "ten": "Quán Lẩu Cháo Cua Đồng",
+                "diachi": "293 Vành Đai Trong, Bình Trị Đông B, Bình Tân, Hồ Chí Minh",
+                "diem": 7.5
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "ten": "Lẩu mắm",
+        "hinhanh": "/img/food/lau-mam.png",
+        "mien": "Nam",
+        "diadanh": "Cần Thơ",
+        "loai": "Món ăn",
+        "diem": 9.5,
+        "mota": "<p>Đây là một món ăn đã gắn bó với Cần Thơ từ bao năm qua và được xem là một món đặc sản miền Tây mà thực khách không nên bỏ lỡ.</p>",
+        "diadiem": [
+            {
+                "ten": "Lẩu mắm Cần Thơ",
+                "diachi": "162/18 Trần Ngọc Quế, Xuân Khánh, Ninh Kiều, Cần Thơ",
+                "diem": 10
+            },
+            {
+                "ten": "Lẩu Mắm Dạ Lý",
+                "diachi": "89 Ba Tháng Hai, Hưng Lợi, Ninh Kiều, Cần Thơ",
+                "diem": 9
+            },
+            {
+                "ten": "Lẩu mắm Hai Khỏe",
+                "diachi": "186B15 Hẻm 616 Lê Đức Thọ, Phường 15, Gò Vấp, Hồ Chí Minh",
+                "diem": 7.5
+            },
+            {
+                "ten": "Quán Lẩu Mắm 186",
+                "diachi": " 186 Lê Đức Thọ, Phường 15, Gò Vấp, Hồ Chí Minh",
+                "diem": 7.5
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "ten": "Lẩu cua đồng",
+        "hinhanh": "/img/food/lau-cua-dong.jpg",
+        "mien": "Nam",
+        "diadanh": "Cần Thơ",
+        "loai": "Món ăn",
+        "diem": 6,
+        "mota": "<p>Món ăn này thường được biến tấu theo hương vị khác nhau để phù hợp với từng khu vực: cua đồng, ghẹ, tôm,.. Song bảo đảm món ăn này vẫn mang hương vị ngọt thanh của cua nên ai ăn cũng cảm thấy vô cùng ghiền. Nếu tới miền Tây vào ngày nóng thì đây là món ăn lý tưởng mà thực khách nên lựa chọn.</p>",
+        "diadiem": [
+            {
+                "ten": "Lẩu Cua Đồng",
+                "diachi": "23a, 2 Mậu Thân, An Nghiệp, Ninh Kiều, Cần Thơ",
+                "diem": 5
+            },
+            {
+                "ten": "Ngõ 8 - Trà Chanh & Lẩu Riêu Cua Đồng",
+                "diachi": "35 Trương Định, Phường 6, Quận 3, Hồ Chí Minh",
+                "diem": 7.5
+            },
+            {
+                "ten": "Quán Lẩu Cua Đồng",
+                "diachi": "470 Nguyễn Thị Thập, Tân Quy, Quận 7, Hồ Chí Minh",
+                "diem": 8
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "ten": "Bò tùng xẻo",
+        "hinhanh": "/img/food/bo-tung-xeo.jpg",
+        "mien": "Nam",
+        "diadanh": "Nam Bộ",
+        "loai": "Món ăn",
+        "diem": 9,
+        "mota": "<p>Nếu tới Nam Bộ mà bạn không thưởng thức món bò tùng xẻo thì quả là một sai lầm đáng tiếc. Thịt bò được làm sạch rồi nhồi vào bụng các loại lá thơm: lá sả, tía tô,… rồi khâu lại.</p>",
+        "diadiem": [
+            {
+                "ten": "Quán Bò Tùng Xẻo Lương Sơn",
+                "diachi": "31 Lý Tự Trọng, Bến Nghé, Quận 1, Hồ Chí Minh",
+                "diem": 9.5
+            },
+            {
+                "ten": "Quán Bò Tùng Xẻo Chân Mây",
+                "diachi": "65 Nguyễn Văn Săng, Tân Sơn Nhì, Tân Phú, Hồ Chí Minh",
+                "diem": 9
+            },
+            {
+                "ten": "Quán Cây Me Bò Tùng Xẻo & Cua Cà Mau",
+                "diachi": "18/3 Nguyễn Lâm, Phường 6, Quận 10, Hồ Chí Minh",
+                "diem": 7
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "ten": "Bánh pía",
+        "hinhanh": "/img/food/banh-pia.jpg",
+        "mien": "Nam",
+        "diadanh": "Sóc Trăng",
+        "loai": "Bánh",
+        "diem": 8.5,
+        "mota": "<p>Nếu bạn được thưởng thức món bánh pía ở Sóc Trăng với hương vị không quá ngọt hay quá béo thì bảo đảm bạn sẽ ăn hoài không ngán. Đây là một món đặc sản miền Tây mà nhiều du khách lựa chọn làm quà khi tới nơi đây du lịch.</p>",
+        "diadiem": [
+            {
+                "ten": "Bánh Pía Sóc Trăng",
+                "diachi": "490 Phan Xích Long, Phường 3, Phú Nhuận, Hồ Chí Minh",
+                "diem": 7
+            },
+            {
+                "ten": "Cửa Hàng Bánh Pía Tân Huê Viên Chị Trúc",
+                "diachi": " 509 Cách Mạng Tháng 8, Phường 13, Quận 10, Hồ Chí Minh",
+                "diem": 9
+            },
+            {
+                "ten": "Bánh Pía Mỹ Anh cơ sở 1",
+                "diachi": "372 Nguyễn Trọng Tuyển, Phường 2, Tân Bình, Hồ Chí Minh",
+                "diem": 7
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "ten": "Chè Chuối Chưng",
+        "hinhanh": "/img/food/che-chuoi.jpg",
+        "mien": "Nam",
+        "diadanh": "Mỹ Tho",
+        "loai": "Món ăn",
+        "diem": 7,
+        "mota": "<p>“Ai chè chuối bột báng nước dừa hông????”. Tiếng rao lanh lảnh là kí ức về những buổi trưa hè thơ ấu đầy yêu thương. Chè chuối thì phải ăn nóng mới ngon, thế là nồi chè nhỏ đặt trên bếp than liu riu cứ tỏa hương thơm khắp ngõ hẻm mà cô bán chè đi qua.</p>",
+        "diadiem": [
+            {
+                "ten": "My Tho Sweet Gruel- Chè Chuối Mỹ Tho",
+                "diachi": "166 Đường số 79, Tân Quy, Quận 7, Hồ Chí Minh 700000",
+                "diem": 7.5
+            },
+            {
+                "ten": "Quán Chè Hiển Khánh",
+                "diachi": "718 Nguyễn Đình Chiểu, Phường 1, Quận 3, Hồ Chí Minh",
+                "diem": 8
+            },
+            {
+                "ten": "Chè",
+                "diachi": "239 Võ Văn Tần, Phường 5, Quận 3, Hồ Chí Minh",
+                "diem": 6
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "ten": "Bánh Khọt",
+        "hinhanh": "/img/food/banh-khot.jpg",
+        "mien": "Nam",
+        "diadanh": "Tây Nam Bộ",
+        "loai": "Món ăn",
+        "diem": 10,
+        "mota": "<p>Bánh khọt là món ăn chơi được yêu thích và phổ biến của vùng đất Nam bộ. Mỗi vùng đất đi qua thì bánh khọt lại được biến tấu theo nhiều cách khác nhau để phù hợp với khẩu vị và đặc trưng vùng miền.</p>",
+        "diadiem": [
+            {
+                "ten": "Quán Bánh Khọt miền Tây",
+                "diachi": " Phường 14, District 10, Hô Chi Minh",
+                "diem": 8.5
+            },
+            {
+                "ten": "Bánh Khọt Vũng Tàu Khanh",
+                "diachi": "7 Đồng Nai, Phường 15, Quận 10, Hồ Chí Minh",
+                "diem": 9
+            },
+            {
+                "ten": "Quán Bánh khọt Gốc Vú Sữa",
+                "diachi": "14 Nguyễn Trường Tộ, Phường 2, Thành phố Vũng Tầu, Bà Rịa - Vũng Tàu",
+                "diem": 10
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "ten": "Canh chua cá bông lau ",
+        "hinhanh": "/img/food/canh-chua-ca-bong-lau.jpg",
+        "mien": "Nam",
+        "diadanh": "An Giang",
+        "loai": "Món ăn",
+        "diem": 9.5,
+        "mota": "<p>Vàm Nao (huyện Phú Tân, An Giang) là khúc sông ngắn nối sông Tiền và sông Hậu, nằm ở địa phận giáp ranh giữa hai huyện Chợ Mới và Phú Tân. Nó không chỉ nổi tiếng vì cảnh đẹp, về những huyền thoại “dưới sông sấu nhảy…” một thời mà còn nổi tiếng vì đặc sản cá bông lau, đệ nhất đặc sản của miền Tây. Cá bông lau không chỉ nổi tiếng về ngon mà còn về nguồn gốc bí hiểm của nó. </p>",
+        "diadiem": [
+            {
+                "ten": "Cơm Niêu Sài Gòn",
+                "diachi": "59 Hồ Xuân Hương, Phường 6, Quận 3, Hồ Chí Minh",
+                "diem": 8
+            },
+            {
+                "ten": "Cơm Niêu Sài Gòn",
+                "diachi": "27 Tú Xương, Phường 7, Quận 3, Hồ Chí Minh 700000",
+                "diem": 7.5
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "ten": "Bò bía",
+        "hinhanh": "/img/food/bo-bia.jpg",
+        "mien": "Nam",
+        "diadanh": "Nam Bộ",
+        "loai": "Món ăn",
+        "diem": 8,
+        "mota": "<p>Bò bía là món ăn dân dã, cách làm vô cùng đơn giản. Chỉ cần cuốn hỗn hợp củ sắn, tép khô, xà lách, rau thơm, lạp xưởng, trứng trong một miếng bánh tráng mỏng là đã có một cuốn bò bía. </p>",
+        "diadiem": [
+            {
+                "ten": "Quán Bò Bía - Gỏi - Bột Chiên",
+                "diachi": "757 Hoàng Sa, Phường 9, Quận 3, Hồ Chí Minh",
+                "diem": 9
+            },
+            {
+                "ten": "Bò Bía Lữ Gia",
+                "diachi": "Số 52, Phường 15, Quận 11, Hồ Chí Minh",
+                "diem": 8
+            },
+            {
+                "ten": "Bò Bía Cô Đức",
+                "diachi": "108 An Hội, Phường 13, Gò Vấp, Hồ Chí Minh",
+                "diem": 8.5
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "ten": "Nem nướng ",
+        "hinhanh": "/img/food/nem-nuong.jpg",
+        "mien": "Nam",
+        "diadanh": "Cần Thơ",
+        "loai": "Món ăn",
+        "diem": 9,
+        "mota": "<p>Nem nướng thì vùng đất nào cũng có, nhưng mỗi nơi lại mang một hương vị, sắc thái riêng gắn với con người và thổ nhưỡng nơi đó. Đất Cần Thơ là một ví dụ mà nổi bật là bên bờ kinh Cái Răng từ hơn nửa thế kỷ trước đã nổi lên một đặc sản nem do chính tay người phụ nữ mà dân trong vùng gọi là Tư Khem sáng tạo nên. </p>",
+        "diadiem": [
+            {
+                "ten": "Nem Nuong Hai Van",
+                "diachi": "98 Đề Thám, Tân An, Ninh Kiều, Cần Thơ",
+                "diem": 9.5
+            },
+            {
+                "ten": "Quán Nem Nướng Cái Răng",
+                "diachi": "Khu Vực 3, Đường Ba Tháng Hai Nối Dài, Phường An Bình, Quận Ninh Kiều, Thành Phố Cần Thơ, Hưng Lợi, Ninh Kiều, Cần Thơ",
+                "diem": 10
+            },
+            {
+                "ten": "Nem Nướng Cô Điệp",
+                "diachi": " 337/10 Đường Lê Văn Sỹ, Phường 1, Tân Bình, Hồ Chí Minh",
+                "diem": 9
+            },
+            {
+                "ten": "Nem Nướng Hoàng Tam",
+                "diachi": " 1, 22 Nguyễn Cảnh Chân, Cầu Kho, Quận 1, Hồ Chí Minh",
+                "diem": 9.5
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "ten": "Bánh canh cá lóc (Quảng Trị)",
+        "hinhanh": "/img/food/banh-canh-ca-loc.jpg",
+        "mien": "Trung",
+        "diadanh": "Quảng Trị",
+        "loai": "Món ăn",
+        "diem": 8.5,
+        "mota": "<p> Chỉ với bánh canh, thịt cá lóc, chút hành ớt, người Quảng Trị đã làm nên một món ăn dân dã rất độc đáo, lại có tính hàn giúp giải nhiệt, phù hợp điều kiện sống quanh năm khô hạn của vùng đất này. </p>",
+        "diadiem": [
+            {
+                "ten": " Bánh canh cá lóc, bánh bột lọc Huế",
+                "diachi": " 154/3 Hồ Bá Kiện, Phường 15, Quận 10, Hồ Chí Minh",
+                "diem": 7
+            },
+            {
+                "ten": " Bánh canh Cá Lóc",
+                "diachi": " 12/5 Phạm Văn Hai, Phường 2, Tân Bình, Hồ Chí Minh",
+                "diem": 8
+            },
+            {
+                "ten": " Bánh Canh Cá lóc - Hiếu Quảng Trị",
+                "diachi": " 48 Phan Đình Phùng, Tân Thạnh, Tân Phú, Hồ Chí Minh",
+                "diem": 9
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "ten": "Cơm hến",
+        "hinhanh": "/img/food/com-hen.jpg",
+        "mien": "Trung",
+        "diadanh": "Huế",
+        "loai": "Món ăn",
+        "diem": 9,
+        "mota": "<p>Xưa kia, người ta làm cơm hến để tận dụng cơm canh còn lại của hôm trước. Thời vua Thành Thái, món ăn được tiến cung và dần trở thành đặc sản nổi tiếng của ẩm thực xứ kinh kỳ. Cơm hến đúng nghĩa phải dùng cơm nguội để qua đêm, nhằm giữ độ giòn của rau và hương thơm các loại gia vị. </p>",
+        "diadiem": [
+            {
+                "ten": " Cơm hến Hoa Đông",
+                "diachi": " 64 kiệt 7 Ưng Bình, Vỹ Dạ, Thành phố Huế, Thừa Thiên Huế",
+                "diem": 9
+            },
+            {
+                "ten": " Cơm Hến - Quán Nhỏ",
+                "diachi": " 28 Phạm Hồng Thái, Vĩnh Ninh, Thành phố Huế, Thừa Thiên Huế",
+                "diem": 9.5
+            },
+            {
+                "ten": " Cơm Hến Huế",
+                "diachi": " Phường 14, 3e Arrondissement d'Hô-Chi-Minh-Ville, Hô Chi Minh",
+                "diem": 9
+            },
+            {
+                "ten": " Quán Cơm hến",
+                "diachi": " 95 Ông Ích Khiêm, Thanh Bình, Hải Châu, Đà Nẵng 550000",
+                "diem": 7.5
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "ten": "Cao Lầu",
+        "hinhanh": "/img/food/cao-lau.jpg",
+        "mien": "Trung",
+        "diadanh": "Hội An",
+        "loai": "Món ăn",
+        "diem": 8.5,
+        "mota": "<p> Cao lầu là một món ăn độc đáo từ tên gọi cho đến cách chế biến. Thành phần món ăn gồm sợi mì tươi, một ít sợi mì khô chiên giòn, xá xíu ít nước xắt lát, rau sống và sốt lấy từ nước luộc thịt.</p>",
+        "diadiem": [
+            {
+                "ten": " Quán Cao Lầu Thanh",
+                "diachi": " 26 Thái Phiên Cao Lầu Thanh duy nhất 1 địa điểm tại 26 Thái Phiên (lưu ý có cửa hàng giả mạo Hội An Quảng Nam VN 560000, 26 Thái Phiên, Phường Minh An, Hội An, Quảng Nam",
+                "diem": 9.5
+            },
+            {
+                "ten": " Cao lầu Không Gian Xanh",
+                "diachi": "  687 Hai Bà Trưng, Phường Minh An, Hội An, Quảng Nam",
+                "diem": 7.5
+            },
+            {
+                "ten": " HỘI PHỐ",
+                "diachi": " 457/1 Cách Mạng Tháng 8, Phường 13, Quận 11, Hồ Chí Minh",
+                "diem": 8
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "ten": "Bún chả cá",
+        "hinhanh": "/img/food/bun-cha-ca.jpg",
+        "mien": "Trung",
+        "diadanh": "Quy Nhơn",
+        "loai": "Món ăn",
+        "diem": 9,
+        "mota": "<p> Bún chả cá là món ăn nổi tiếng của người dân phố biển Quy Nhơn. Tuy chỉ đơn giản là tô bún nước trong ăn kèm với chả cá, sức hấp dẫn của món này rất đáng kể.</p>",
+        "diadiem": [
+            {
+                "ten": " Bún Chả cá Lệ Quy Nhơn",
+                "diachi": " 8 Đồng Nai, Phường 15, Quận 10, Hồ Chí Minh",
+                "diem": 7
+            },
+            {
+                "ten": " Bún chả cá Quy Nhơn Út Lợi",
+                "diachi": " 66 Huỳnh Mẫn Đạt, Phường 7, Quận 5, Hồ Chí Minh",
+                "diem": 7.5
+            },
+            {
+                "ten": " Bún chả cá 109",
+                "diachi": " 109 Nguyễn Chí Thanh, Hải Châu 1, Hải Châu, Đà Nẵng 550000",
+                "diem": 8
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "ten": "Gỏi cá mai",
+        "hinhanh": "/img/food/goi-ca-mai.jpg",
+        "mien": "Trung",
+        "diadanh": "Ninh Thuận",
+        "loai": "Món ăn",
+        "diem": 8.5,
+        "mota": "<p> Cá mai trông tương tự cá cơm, mình trơn, dẹp, có một lớp vẩy bạc bao quanh. Để thực hiện món gỏi cá mai, kỳ công nhất ở khâu rút xương và lấy giấy thấm thật khô từng con cá. Sau đó cá được làm tái chín bằng me, chanh hoặc giấm để thịt chuyển từ màu trắng trong sang trắng đục.</p>",
+        "diadiem": [
+            {
+                "ten": " Quán ăn Châu Phát",
+                "diachi": " 166 Yên Ninh, TT. Khánh Hải, Ninh Hải, Ninh Thuận",
+                "diem": 6
+            },
+            {
+                "ten": " Gỏi Cá Mai Vườn Xoài",
+                "diachi": " 5 Hoàng Hoa Thám, Phường 3, Thành phố Vũng Tầu, Bà Rịa - Vũng Tàu",
+                "diem": 9
+            },
+            {
+                "ten": " Gỏi Cá Mai",
+                "diachi": " 108 Trương Định, Phường 9, Quận 3, Hồ Chí Minh",
+                "diem": 7
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "ten": "Mì Quảng",
+        "hinhanh": "/img/food/mi-quang.jpg",
+        "mien": "Trung",
+        "diadanh": "Hội An",
+        "loai": "Món ăn",
+        "diem": 9,
+        "mota": "<p> Đây là món ăn được ví như cái “hồn” của ẩm thực Quảng Nam, đến miền Trung nắng gió mà không thử món này thì thật là đáng tiếc lắm đấy.</p>",
+        "diadiem": [
+            {
+                "ten": " Mi Quang Hoi An",
+                "diachi": " C1B Bửu Long, Phường 15, Quận 10, Phường 15, Quận 10, Hồ Chí Minh",
+                "diem": 8
+            },
+            {
+                "ten": " Quán Mì Quảng Hội An Mệ Vui 3 - Kỳ Đồng Q3",
+                "diachi": " 41 Kỳ Đồng, Phường 9, Quận 3, Hồ Chí Minh 700000",
+                "diem": 7
+            },
+            {
+                "ten": " Mì Quảng Ếch Bếp Trang",
+                "diachi": " 30 Lê Đình Dương, Phước Ninh, Hải Châu, Đà Nẵng 550000",
+                "diem": 8
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "ten": "Cơm Gà Tam Kỳ",
+        "hinhanh": "/img/food/com-ga-tam-ky.jpg",
+        "mien": "Trung",
+        "diadanh": "Quảng Nam",
+        "loai": "Món ăn",
+        "diem": 9,
+        "mota": "<p> Ngoài món mì Quảng trứ danh thì Quảng Nam còn được biết đến với món cơm gà Tam Kỳ nổi tiếng không kém, đây cũng là một trong các món ăn đặc sản miền Trung không thể không thử.</p>",
+        "diadiem": [
+            {
+                "ten": " Ba Luan Tam Ky Chicken Rice",
+                "diachi": " 707 Phan Châu Trinh, Phường Hoà Hương, Tam Kỳ, Phường Hoà Hương Tam Kỳ Quảng Nam",
+                "diem": 9.5
+            },
+            {
+                "ten": " Quán Cơm Gà Tam Duyên",
+                "diachi": " 576 Phan Châu Trinh, Phường Hoà Hương, Tam Kỳ, Quảng Nam",
+                "diem": 9
+            },
+            {
+                "ten": " Cơm gà Tam Kỳ",
+                "diachi": " 26-30 Bàu Cát, Phường 13, Tân Bình, Hồ Chí Minh ",
+                "diem": 8.5
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "ten": "Bún chả Hà Nội",
+        "hinhanh": "/img/food/bun-cha-ha-noi.jpg",
+        "mien": "Bắc",
+        "diadanh": "Hà Nội",
+        "loai": "Món ăn",
+        "diem": 10,
+        "mota": "<p> Song hành cùng Phở Hà Nội thì Bún chả cũng là một trong những đặc sản miền Bắc nổi tiếng được rất nhiều du khách nước ngoài ghé đến và Ngày nay, đến Hà Nội, bạn có thể thưởng thức địa điểm ăn bún chả Hà Nội ngon nổi tiếng như: Bún chả Obama Hương Liên, bún chả Hàng Mành...</p>",
+        "diadiem": [
+            {
+                "ten": " Quán Bún Chả Ngon",
+                "diachi": " Ngõ Đình Đại, Cầu Dền, Hai Bà Trưng, Hà Nội",
+                "diem": 9
+            },
+            {
+                "ten": " Bún Chả Hương Liên 2 Obama",
+                "diachi": " Số 14 ngõ 59, Láng Hạ, Chợ Dừa, Ba Đình, Hà Nội",
+                "diem": 7
+            },
+            {
+                "ten": " Bún Chả Hà Nội 26",
+                "diachi": " 9c2 Thái Văn Lung, Bến Nghé, Quận 1, Hồ Chí Minh",
+                "diem": 8
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "ten": "Bún đậu mắm tôm",
+        "hinhanh": "/img/food/bun-dau-mam-tom.jpg",
+        "mien": "Bắc",
+        "diadanh": "Hà Nội",
+        "loai": "Món ăn",
+        "diem": 9.5,
+        "mota": "<p> Bún đậu mắm tôm – Đặc sản miền Bắc ngon cực kỳ nếu bạn ăn được Bún đậu mắm tôm là món ăn dân dã đặc sản của miền Bắc. Bún đậu mắm tôm rất kén người ăn. Tuy nguyên liệu khá đơn giản, chỉ có bún tươi, đậu phụ rán, chả cốm, rau thơm nhưng ngon nhất là ăn bún đậu mắm tôm kèm nước chấm “mắm tôm” thần thánh không phải ai cũng ngửi và ăn được.</p>",
+        "diadiem": [
+            {
+                "ten": " Quán Bún Đậu Mắm Tôm",
+                "diachi": " 9 Bà Triệu, Tràng Tiền, Hoàn Kiếm, Hà Nội",
+                "diem": 8
+            },
+            {
+                "ten": " Bún Đậu Mắm Tôm",
+                "diachi": "  9 Phủ Doãn, Hàng Trống, Hoàn Kiếm, Hà Nội 100000",
+                "diem": 9
+            },
+            {
+                "ten": " Bún Đậu 46",
+                "diachi": " 46 Cao Bá Nhạ, Phường Nguyễn Cư Trinh, Quận 1, Hồ Chí Minh",
+                "diem": 8
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "ten": "Chả Mực",
+        "hinhanh": "/img/food/cha-muc.jpg",
+        "mien": "Bắc",
+        "diadanh": "Quảng Ninh",
+        "loai": "Món ăn",
+        "diem": 9,
+        "mota": "<p> Bạn có thể bắt gặp chả mực ở khắp các vùng miền Việt Nam như chả mực Đà Nẵng, chả mực Hải Phòng nhưng thơm ngon và nổi tiếng nhất vẫn là chả mực Hạ Long thuộc tỉnh Quảng Ninh.</p>",
+        "diadiem": [
+            {
+                "ten": " Hải sản ông ba",
+                "diachi": " Halong Park, Lô C122, Sunworld, Hạ Long, Tp. Hạ Long, Quảng Ninh ",
+                "diem": 10
+            },
+            {
+                "ten": " Chả mực ngon Hạ Long",
+                "diachi": " Cạnh Chợ Hạ Long 1, P. Bạch Đằng, Thành phố Hạ Long, Quảng Ninh",
+                "diem": 9
+            },
+            {
+                "ten": " Chả mực Gia Phúc - đặc sản Hạ Long",
+                "diachi": " 76 Nguyễn Hữu Cầu, Tân Định, Quận 1, Hồ Chí Minh 700000",
+                "diem": 6.5
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "ten": "Bún cá cay",
+        "hinhanh": "/img/food/bun-ca-cay.jpg",
+        "mien": "Bắc",
+        "diadanh": "Hải Phòng",
+        "loai": "Món ăn",
+        "diem": 8,
+        "mota": "<p> Đến vùng đất cảng Hải Phòng thì không ai là không biết bún cá. Bún cá cay Hải Phòng là một trong những món ngon Việt Nam mang hương vị đồng quê. Khác với bún cá Hà Nội, Bún cá Hải Phòng có hương vị nước dùng và được ăn cùng miếng cá rô giòn rụm, chả cá thu dai dai, mềm ngọt đậm đà vị cá và phải ăn cùng rau dọc mùng giòn giòn. </p>",
+        "diadiem": [
+            {
+                "ten": " Bún cá cay Hải Phòng",
+                "diachi": " 47 Lạch Tray, Ngô Quyền, Hải Phòng",
+                "diem": 9
+            },
+            {
+                "ten": " Bún Cá Cay",
+                "diachi": " 72 Lê Lai, Lạ Viên, Ngô Quyền, Hải Phòng ",
+                "diem": 8
+            },
+            {
+                "ten": "Bún cá cay Hải Phòng ",
+                "diachi": " 107 Láng Hạ, Đống Đa, Hà Nội",
+                "diem": 7.5
+            }
+        ]
+    }
+]
